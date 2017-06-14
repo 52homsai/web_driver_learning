@@ -1,23 +1,21 @@
+# Eclipse
+.classpath
+.loadpath
+.metadata
+.recommenders
+.settings/
+*.bak
+*.swp
+*.tmp
 
-# Compiled class file
-*.class
-
-# Log file
+# Build/Deploy
+bin/
+target/
+tmp/
+test-output/
 *.log
+*.MF
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+pemfile_cached
+*.launch
+*.vscode
